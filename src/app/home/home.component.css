@@ -1,0 +1,79 @@
+.tasks {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 15em;
+  }
+ .projects li{
+   cursor: pointer;
+ }
+  .tasks li{
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: #EEE;
+    margin: .5em;
+    padding: .3em 0;
+    border-radius: 4px;
+  }
+  .tasks li:hover, .projects li:hover {
+    color: #607D8B;
+    background-color: #DDD;
+    left: .1em;
+  }
+  .tasks li.selected, .projects li.selected {
+    background-color: #CFD8DC;
+    color: white;
+  }
+  .tasks li.selected:hover, .projects li.selected:hover {
+    background-color: #BBD8DC;
+    color: white;
+  }
+  .tasks .badge {
+    display: inline-block;
+    font-size: small;
+    color: white;
+    background-color:#405061;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+  }
+  .cont{
+    display: inline-block;
+    margin: 20px;
+    float: left;
+  }
+  .body{
+    margin: auto;
+    width: 846px;
+  }
+  .info{
+    width: 846px;
+    margin: auto;
+  }
+  h3{
+    text-align: center;
+  }
+  .bttns{
+    margin: 5px;
+  }
+  .content{
+    padding: 20px;
+    border: 1px solid gray;
+    min-height: calc(100vh - 80px);
+    width: 80vw;
+    min-width: 900px;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+  }
+  .buttons{
+    position: absolute;
+  }
+  .btn{
+    display: block;
+    margin: 5px;
+  }
